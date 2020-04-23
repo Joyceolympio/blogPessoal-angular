@@ -12,7 +12,7 @@ export class PostagemService {
   é um acronomo de palavras CREAT, READY, UPDATE e DELETE
   */
 
-  getAllPostagem() {
+  getAllPostagens() {
     return this.http.get('http://31.220.57.14:8080/postagens')
   }
 
